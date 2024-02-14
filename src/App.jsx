@@ -14,6 +14,8 @@ export default function App() {
         { id: crypto.randomUUID(), title: newItem, completed: false},
       ]
     })
+
+    setNewItem("")
   }
 
   return (
